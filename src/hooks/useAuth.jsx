@@ -9,7 +9,7 @@ export const useAuth = () => {
     useEffect(() => {
         const fetchUser = async () => {
             setLoading(true)
-            const res = await Api('GET', 'users/profile');
+            const res = await Api('GET', '/auth');
             //TODO Revisión respuesta
             setUser(res.result);
             setLoading(false)

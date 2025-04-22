@@ -5,7 +5,7 @@ import googleIco from '../../assets/icons/googleIco.png';
 export const Login = () => {
 
     const handleLogin = () => {
-        window.location.href = 'https://google.com'
+        window.location.href = 'http://localhost:3000/api/v1/users/login/google'
     }
 
     return(
